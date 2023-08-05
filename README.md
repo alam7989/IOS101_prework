@@ -24,7 +24,7 @@ I added the following features:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+![](https://github.com/alam7989/IOS101_prework/blob/main/IOS101_prework1.gif)
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with GIPHY CAPTURE
