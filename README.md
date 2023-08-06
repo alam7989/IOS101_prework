@@ -35,8 +35,9 @@ My 3 favorite applications:
 - Instagram: I like that I can send other users' posts to my friends. I also like that I can create temporary "stories" in addition to normal posts.
 - Snapchat: I enjoy using the image filters offered in Snapchat. I also like that I can personalize my Bitmoji character.
 
-Idea for a new app:
-(Think of an app idea that you would like to build. It can be a new idea or an improvement on an existing app. Write a short paragraph describing the app and the features you would like to implement. You are not commiting to this idea, but it helps to start brain storming early on and get feedback from your peers and instructors.)
+Idea for a new app: My Budget Planner
+I would like to build an app that helps users manage their expenses. Users would be able to plan and track their daily, weekly, monthly, and yearly budget. The app would allow users to organize their expenses categorically. Additionally, the app would learn users' spending habits, including data about the items and stores that they frequently purchase or visit. With this information, the app could predict users' expenses, and generate suggested budgets for users. This suggested budget could
+be personalized to each user, taking into account factors such as minimum and maximum budget, necessary expenses, and location. 
 
 ## Notes
 
