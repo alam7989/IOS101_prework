@@ -14,22 +14,20 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    var red_val = CGFloat(0)
-    var green_val = CGFloat(0)
-    var blue_val = CGFloat(0)
+    var red = CGFloat(0)
+    var green = CGFloat(0)
+    var blue = CGFloat(0)
+    var alpha = CGFloat(0.5)
 
     @IBAction func changeBackgroundCOlor(_ sender: UIButton){
         
         func changeColor() -> UIColor{
 
-                let red = CGFloat.random(in: 0...1)
-                let green = CGFloat.random(in: 0...1)
-                let blue = CGFloat.random(in: 0...1)
-                red_val = red
-                green_val = green
-                blue_val = blue
+                red = CGFloat.random(in: 0...1)
+                green = CGFloat.random(in: 0...1)
+                blue = CGFloat.random(in: 0...1)
 
-                return UIColor(red: red, green: green, blue: blue, alpha: 0.5)
+                return UIColor(red: red, green: green, blue: blue, alpha: alpha)
         }
         
         let randomColor = changeColor()
@@ -48,11 +46,11 @@ class ViewController: UIViewController {
         
         func changeColor() -> UIColor{
 
-                let red = CGFloat.random(in: 0...1)
-                let green = CGFloat.random(in: 0...1)
-                let blue = CGFloat.random(in: 0...1)
+                let red_value = CGFloat.random(in: 0...1)
+                let green_value = CGFloat.random(in: 0...1)
+                let blue_value = CGFloat.random(in: 0...1)
 
-                return UIColor(red: red, green: green, blue: blue, alpha: 0.5)
+                return UIColor(red: red_value, green: green_value, blue: blue_value, alpha: 1)
         }
         
         let randomColor = changeColor()
@@ -68,9 +66,9 @@ class ViewController: UIViewController {
     
     @IBAction func changeAlpha() {
         
-        let alpha = transparencySlider.value
-        sliderLabel.text = String(alpha)
-        view.backgroundColor = UIColor(red: red_val, green: green_val, blue: blue_val, alpha: CGFloat(alpha))
+        sliderLabel.text = String(describing: alpha)
+        alpha = CGFloat(transparencySlider.value)
+        view.backgroundColor = UIColor(red: red, green: green, blue: blue, alpha: CGFloat(alpha))
     }
     
 }
